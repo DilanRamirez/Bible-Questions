@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "cypress": "^9.6.0",
+    "start-server-and-test": "^1.14.0",
+    "typescript": "^4.6.4"
+  },
+  "scripts": {
+    "develop": "gatsby develop",
+    "cy:open": "npx cypress open",
+    "test:e2e": "start-server-and-test develop http://localhost:8000 cy:open"
+  }
+}

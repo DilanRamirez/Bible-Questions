@@ -1,0 +1,24 @@
+{
+  "name": "bible-questions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "prettier": "^2.6.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write client",
+    "test:format": "prettier --check client"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DilanRamirez/Bible-Questions.git"
+  },
+  "author": "Dilan Ramirez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DilanRamirez/Bible-Questions/issues"
+  },
+  "homepage": "https://github.com/DilanRamirez/Bible-Questions#readme"
+}
